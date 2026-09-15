@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thought Leadership Workflow"
+  short_description: "Build a content profile and write from real experience"
+  default_prompt: "Use $thought-leadership-workflow to set up my content profile and draft from my work."
