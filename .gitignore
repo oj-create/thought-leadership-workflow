@@ -1,0 +1,6 @@
+.content-workspace/
+**/.content-workspace/
+.env
+.env.*
+.DS_Store
+__pycache__/
