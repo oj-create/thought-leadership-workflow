@@ -5,6 +5,8 @@ description: Set up a personal content profile and plan, draft, repurpose, or re
 
 # Thought Leadership Workflow
 
+Version: 1.1. Adds correction-driven updates to the personal writing profile.
+
 Turn the author's experience into useful explanations of decisions, methods, observations, and lessons. Keep the author's identity separate from the operator and any style reference.
 
 ## Resolve context before drafting
@@ -12,7 +14,7 @@ Turn the author's experience into useful explanations of decisions, methods, obs
 Use a working directory the user selects. Look only for its `.content-workspace/profile.md`; do not search unrelated folders or accounts for personal information. Keep working files outside this installed skill. If the skill itself is the selected working directory, ask for a separate project folder or use the no-files fallback.
 
 - Missing, blank, or incomplete profile: follow [first-use setup](references/setup.md).
-- Confirmed profile: load it and the source material relevant to the request. Do not repeat setup.
+- Confirmed profile: load it, including its learned writing preferences, and the source material relevant to the request. Do not repeat setup. If a feedback log exists, reconcile unfinished changes using the feedback reference before applying new ones.
 - A different author or unclear profile match: clarify the author and use a separate working directory. Do not merge voices.
 - Profile update: use the user's corrections, preserve unrelated answers, and confirm material changes to identity, audience, or goals.
 - No filesystem or conversation-only preference: keep an explicit Markdown profile in the conversation and return updated text for the user to save. Do not claim persistence across sessions.
@@ -48,6 +50,12 @@ Use [profile template](templates/profile.md) for setup. Use [content log](templa
 
 Status moves only with evidence: draft, approved, scheduled, published. A draft is not a published post. Record a published URL or explicit user confirmation before marking published. Revising approved copy returns that revision to draft.
 
-Turn recurring editorial corrections into proposed profile guidance. A one-off edit is not automatically a universal rule. Save agreed changes in the chosen working profile, not in global memory or the distributable package.
+## Improve from corrections
+
+When the user corrects a draft, supplies their edited version, asks what was learned, or requests undo, follow [feedback learning](references/feedback.md). Read it before changing learned preferences.
+
+The default learning mode is `explicit`: save clearly stated ongoing writing preferences automatically, report the change briefly, and apply it to later drafts. A one-time edit is not a standing preference. Repeated inferred patterns remain proposals until confirmed. Modes `review` and `off` are supported.
+
+Update only the current author's private profile and feedback log. Do not rewrite this skill, templates, another author's profile, global memory, or the public repository. This is assistant-driven local guidance, not model training or a background process. Existing profiles without a learning-mode field use `explicit`; announce the default on the first eligible correction and honor any existing opt-out.
 
 Return the requested drafts with only the necessary notes. Publishing, scheduling, external messaging, paid collection, and account changes require explicit authorization for those actions. A publishing preference in the profile is not standing authorization. A cadence is a planning preference, not a reminder or scheduled automation.

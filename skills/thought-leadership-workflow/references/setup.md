@@ -30,7 +30,7 @@ Ask which material is public, private but usable in anonymized form, or excluded
 
 Request two or three authored writing samples if available, with comments about what feels right or wrong. A reference writer can help explain preferences but does not establish the author's own voice.
 
-Capture tone, depth, preferred phrasing, formatting, humor, punctuation, questions, hashtags, CTA preferences, and things to avoid. Ask only about choices not already evident. Accept no samples and mark the voice provisional.
+Capture tone, depth, preferred phrasing, formatting, humor, punctuation, questions, hashtags, CTA preferences, and things to avoid. Explain the learning mode: explicit ongoing preferences are saved automatically by default; inferred patterns are proposed for review. Offer review-only or off if preferred. Include the selected mode in the profile confirmation. Ask only about choices not already evident. Accept no samples and mark the voice provisional.
 
 ## 4. Cadence and production
 

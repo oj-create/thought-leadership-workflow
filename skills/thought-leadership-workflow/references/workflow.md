@@ -42,4 +42,4 @@ A short post may point to an article, but it should still make sense without the
 
 Before delivery, check source support, contribution, privacy, voice, repetition, and factual consistency. Give sources and material uncertainties outside the copy. If a check fails, revise the claim or flag what evidence is needed; do not certify what was not checked.
 
-Record feedback at its actual scope. Save an agreed general preference to the working profile. Keep a one-post edit local. Track publication and metrics only from explicit evidence. Do not change the author's core subject merely because one post received fewer reactions.
+For corrections or edited drafts, run [feedback learning](feedback.md). Apply clear ongoing writing preferences automatically in explicit mode, keep one-post edits local, and propose repeated inferred patterns for review. Read active learned preferences before the next draft. Track publication and metrics only from explicit evidence. Do not change the author's core subject merely because one post received fewer reactions.

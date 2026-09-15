@@ -8,6 +8,7 @@ It learns your context on first use, checks your source material and past conten
 
 - Guided first-use setup for your audience, experience, voice, topics, and goals.
 - A local author profile you can edit at any time.
+- Correction-driven profile updates with a change log, review mode, and undo.
 - Content planning based on your work and evidence.
 - Checks for repeated arguments, unsupported claims, and repetitive post structures.
 - LinkedIn posts, article repurposing, and long-form drafts.
@@ -46,6 +47,22 @@ With filesystem access, private working files go in `.content-workspace/` in a p
 - “Update my content profile. My audience has changed.”
 
 Past content and analytics improve the work but are optional. No history means no verified repetition audit. No performance data means no performance claim.
+
+## Improve it through your corrections
+
+Version 1.1 adds a feedback loop. When you say “Stop ending every post with a question,” the assistant can save that clear ongoing preference in your local writing profile and use it next time. It tells you what changed.
+
+Removing one question from one draft stays a local edit. If the same change appears across three distinct edited drafts, it can suggest a general rule for you to confirm. It does not silently treat repeated edits as a permanent preference.
+
+The default mode is `explicit`. Choose `review` to approve every proposed profile update, or `off` to stop learning from corrections. You can ask:
+
+- “Show my learned writing preferences.”
+- “Undo the last learned change.”
+- “Forget preference P001.”
+- “Pause learning.”
+- “Resume explicit learning.”
+
+Updates go into the current author's private profile and feedback log, not the shared skill or GitHub repository. This is saved guidance, not AI model training. It runs during your conversations with the skill. With no writable files, changes apply only in the conversation unless you save and reuse the updated profile. Existing installations need the updated skill folder to get this workflow.
 
 ## Edit it
 
